@@ -1,0 +1,379 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #f1f1f1;
+    font-size:62.5%
+}
+
+/* Header */
+header{
+    background: url(photos/training.jpg);
+    background-size: cover;
+    background-position: -4rem -10rem;
+    height: 100vh;
+}
+
+hr{
+    width: 20rem;
+    margin: 0 auto;
+}
+
+
+header h1{
+    color:white;
+    margin-top: 15rem;
+    margin-left: 10rem;
+    font-size: 4rem;
+    
+}
+
+header .btn{
+    margin-top: 1rem;
+}
+
+.btnH1{
+    margin-left: 20rem;
+    /* padding: 0 3rem; */
+}
+.btnH2{
+    margin-left: 1rem;
+}
+
+/* Apropos */
+
+.sectionAbout{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.sectionAbout h2{
+    margin-bottom: 7rem;
+}
+
+.ParagrapheAbout{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+/* Parallax */
+.secPar{
+    height:25rem;
+}
+
+/* section Articles */
+
+.sectionarticles{
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+}
+
+.sectionarticles .card-content{
+    color : #f1f1f1;
+}
+
+.sectionarticles h2{
+    margin-bottom: 7rem;
+}
+.sectionarticles p{
+    font-size: 1rem;
+}
+
+/* Section annuaire */
+
+.sectionAnnuaire{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.sectionAnnuaire .collapsible{
+    color : #f1f1f1;
+}
+
+.sectionAnnuaire h2{
+    margin-bottom: 7rem;
+}
+
+.sectionAnnuaire p{
+    font-size: 1rem;
+    /* text-align: center; */
+}
+
+
+/* Section contact */
+
+.sectionContact{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.sectionContact h2{
+    margin-bottom: 7rem;
+}
+
+/* FOoter */
+
+footer{
+    height: 7rem;
+    display: flex;
+    align-content: center;
+}
+
+footer p{
+    color: #f1f1f1;
+    font-size: 1.5rem;
+}
+
+.flex{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Media queries */
+
+@media screen and (max-width : 1700px){
+
+    header h1{
+        margin-top: 10rem;
+        margin-left: 6rem;
+        
+    }
+    
+    .btnH1{
+        margin-left: 12rem;
+    }
+    
+}
+
+@media screen and (max-width : 1500px){
+
+    header{
+
+        background-position: -2rem -7rem;
+    }
+
+    header h1{
+        margin-left: 4rem;
+        
+    }
+    
+    .btnH1{
+        margin-left: 10rem;
+    }
+    .btnH2{
+        margin-left: 1rem;
+    }
+    
+}
+
+@media screen and (max-width : 1350px){
+
+    header{
+
+        background-position: -2rem -5rem;
+    }
+    
+}
+
+@media screen and (max-width : 1220px){
+
+    header{
+
+        background-position: -2rem -2rem;
+    }
+    
+}
+
+@media screen and (max-width : 1130px){
+
+    header{
+
+        background-position: 1rem -3rem;
+    }
+
+    header h1{
+        margin-top : 7rem;
+        
+    }  
+}
+
+@media screen and (max-width : 1050px){
+
+    header h1{
+        font-size : 3.5rem;   
+    }  
+}
+
+@media screen and (max-width : 1000px){
+
+    header h1{
+        margin-left: 10rem;
+        
+    }
+    
+    .btnH1{
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width : 930px){
+
+    header{
+        background-position: 1rem -1rem;
+    }
+
+
+    header h1{
+        font-size : 3rem;   
+    }  
+}
+
+@media screen and (max-width : 820px){
+    header h1{
+        font-size : 2.5rem;   
+    }  
+}
+
+@media screen and (max-width : 730px){
+    header{
+        background-position: -4rem 1rem;
+    }
+
+    header h1{
+        margin-left: 5rem;
+    }
+
+    .btnH1{
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width : 630px){
+    header{
+        background-position: -6rem 1rem;
+     
+    }
+
+}
+
+@media screen and (max-width : 600px){
+    header{
+        background-position: -7rem 1rem;
+        height: 95vh;
+     
+    }
+
+    header h1{
+        margin-left: 3rem;
+        }
+
+    .btnH1{
+        margin-left: 3rem;
+    }
+
+}
+
+@media screen and (max-width : 550px){
+    header{
+        background-position: -4rem 1rem;
+        height: 80vh;
+    }
+
+    header h1{
+        font-size : 2rem;   
+    }  
+
+}
+
+
+@media screen and (max-width : 500px){
+    header{
+        background-position: -5rem 1rem;
+    }
+
+}
+@media screen and (max-width : 470px){
+    header{
+        background-position: -5.6rem 1rem;
+    }
+
+}
+
+@media screen and (max-width : 460px){
+    header{
+        background-position: -5.5rem 1rem;
+    }
+    .logoSize{
+        font-size:2rem;
+    }
+
+}
+@media screen and (max-width : 460px){
+    header{
+        background-position: -6.5rem 1rem;
+    }
+    .logoSize{
+        font-size:1.5rem;
+    }
+
+    
+    header h1{
+        margin-left: 2rem;
+        }
+
+    .btnH1{
+        margin-left: 2rem;
+    }
+
+}
+@media screen and (max-width : 450px){
+    header{
+        background-position: -7rem 1rem;
+    }
+
+
+}
+@media screen and (max-width : 430px){
+    header{
+        background-position: -7.5rem 1rem;
+    }
+
+
+}
+
+@media screen and (max-width : 420px){
+    header{
+        background-position: -8rem 1rem;
+    }
+
+    header h1{
+        margin-left: 1rem;
+        }
+
+    .btnH1{
+        margin-left: 1rem;
+    }
+
+}
+@media screen and (max-width : 345px){
+    .logoSize{
+        font-size:1.4rem;
+    }
+
+}
+@media screen and (max-width : 325px){
+    .logoSize{
+        font-size:1.2rem;
+    }
+
+}
+
